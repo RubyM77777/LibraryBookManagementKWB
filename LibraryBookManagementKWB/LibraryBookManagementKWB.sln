@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryBookManagementKWB", "LibraryBookManagementKWB.csproj", "{8DB06B69-7EB6-D66B-FAFB-4500C93C15EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryBookManagementKWB.UnitTests", "..\LibraryBookManagementKWB.UnitTests\LibraryBookManagementKWB.UnitTests.csproj", "{D08B97DB-87DD-45E8-8F5E-9D4FDAD864F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DB06B69-7EB6-D66B-FAFB-4500C93C15EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB06B69-7EB6-D66B-FAFB-4500C93C15EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DB06B69-7EB6-D66B-FAFB-4500C93C15EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DB06B69-7EB6-D66B-FAFB-4500C93C15EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D08B97DB-87DD-45E8-8F5E-9D4FDAD864F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D08B97DB-87DD-45E8-8F5E-9D4FDAD864F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D08B97DB-87DD-45E8-8F5E-9D4FDAD864F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D08B97DB-87DD-45E8-8F5E-9D4FDAD864F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DBC8497-5318-42BD-9835-AFECEF59D09E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/LibraryBookManagementKWB/.vs/LibraryBookManagementKWB
+/LibraryBookManagementKWB/obj
+/LibraryBookManagementKWB/.vs/ProjectEvaluation
+/LibraryBookManagementKWB/bin/Debug/net8.0
+/LibraryBookManagementKWB.UnitTests/bin/Debug/net8.0
+/LibraryBookManagementKWB.UnitTests/obj
