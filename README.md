@@ -41,12 +41,13 @@ LibraryBookManagementKWB/
 │   └── LibraryBook.cs
 │
 ├── Repositories/
+│   ├── Interfaces/
+│   │   ├── ILibraryBookRepository.cs
 │   └── LibraryBookRepository.cs
 │
 ├── Services/
 │   ├── Interfaces/
-│   │   ├── ILibraryBookRepository.cs
-│   │   └── ILibraryBookService.cs
+│   │   ├── ILibraryBookService.cs
 │   └── LibraryBookService.cs
 │
 ├── UI/
@@ -55,4 +56,19 @@ LibraryBookManagementKWB/
 ├── Program.cs
 │
 └── Tests/
-    └── LibraryBookServiceTests.cs
+    └── LibraryBookServiceUnitTests.cs
+
+
+1. Created New Project -> Console App (.NET 8). Added all required folders, files & xUnit tests project.
+2. Added LibraryBook Model with its properties. 
+3. Added LibraryBookRepository with Interface following SoC & SOLID.
+4. Added LibraryBookService with Interface (service layer) following SoC & SOLID.
+5. Defined & Implemented all the Methods in LibraryBookRepository. Used List for managing & storing library books In-Memory.
+6. Installed DI package. Registered Services & Repositories in the DI container. Added Constructor Injection to call the LibraryBookRepository Methods in the Service layer.
+7. Defined & Implemented all the Methods in LibraryBookService. Implemented all CRUD Operations for Library Books.
+8. Added Book & ISBN Validations to handle exceptions.
+9. Implemented Try-Catch Exception Handling to handle all the exceptions and show meaningful messages to the user.
+10. Created Console UI LibraryMenu with 6 menu options to perform CRUD Operations.
+11. Installed Moq package & written positive & negative Unit Tests for both Fact & Theory Cases.
+12. Added comments wherever neccessary & updated README.md file.
+
