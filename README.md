@@ -34,3 +34,25 @@
 
 
 **Implementation:**
+
+LibraryBookManagementKWB/
+│
+├── Models/
+│   └── LibraryBook.cs
+│
+├── Repositories/
+│   └── LibraryBookRepository.cs
+│
+├── Services/
+│   ├── Interfaces/
+│   │   ├── ILibraryBookRepository.cs
+│   │   └── ILibraryBookService.cs
+│   └── LibraryBookService.cs
+│
+├── UI/
+│   └── LibraryMenu.cs
+│
+├── Program.cs
+│
+└── Tests/
+    └── LibraryBookServiceTests.cs
