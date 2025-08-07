@@ -2,14 +2,15 @@
 
 **Assignment: Library Management System**
 
-**Objective**
+**Objective:**
+
   Create a simple console application written in C# .NET Core for managing a library of
   books. The primary focus should be on demonstrating clean code practices, separation of
   concerns, and correct implementation of the Repository Pattern. Please do not spend more
   than an hour on the assignment; it is designed to assess the candidate’s ability to meet the
   requirements without over-engineering.
 
-**Requirements**
+**Requirements:**
   1. Concrete Repository Implementations:
   o Implement the repository interfaces.
   o Store data in an in-memory data structure for simplicity.
